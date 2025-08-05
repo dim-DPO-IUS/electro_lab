@@ -1,0 +1,387 @@
+(kicad_symbol_lib (version 20231001)    
+  (symbol "BL0910" (in_bom yes) (on_board yes)      
+    (property "Reference" "U" 
+      (at 0 0 0) (effects(font(size 1.27 1.27))))  
+    (property "Value" "BL0910" 
+      (at 0 -2.54 0) (effects(font(size 1.27 1.27))))
+
+  
+    (property "Footprint" "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm"
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
+    (property "Datasheet" "http://www.belling.com.cn/bl0910.pdf"
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
+    
+    (property "Description" "Ten-phase energy measurement chip with 11 high-precision ADCs"
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
+    (property "Keywords" "energy measurement, multi-channel, ADC, power meter" 
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
+      (property "Unit_Names" "1:Main unit"
+        (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
+    
+    (property "Manufacturer" "Shanghai Belling Co., Ltd."
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+    (property "MPN" "BL0910"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+    (property "Power" "30mW (typical)"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+    (property "Voltage" "3.3V"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+    (property "Features" "1U10I/5U5I/3U6I modes, 11 ADCs, SPI/UART, Temperature sensor"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+    (property "Accuracy" "Active power <±0.3%, RMS <±0.6%"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+    (property "Package" "LQFP48"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+    (property "Current Range" "5mA~30A"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide)))
+
+    
+    (symbol "BL0910_1_1"        
+      (rectangle
+        (start -16.51 -15.24)          (end 16.51 15.24)        )
+      
+      
+      (pin input line          (at -19.05 -12.7 0)          (length 2.54)          
+        (name "VT" (effects (font (size 1.27 1.27))))          
+        (number "1" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 -10.16 0)          (length 2.54)          
+        (name "VREF" (effects (font (size 1.27 1.27))))          
+        (number "2" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 -7.62 0)          (length 2.54)          
+        (name "IN6" (effects (font (size 1.27 1.27))))          
+        (number "3" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 -5.08 0)          (length 2.54)          
+        (name "IP6" (effects (font (size 1.27 1.27))))          
+        (number "4" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 -2.54 0)          (length 2.54)          
+        (name "IN7" (effects (font (size 1.27 1.27))))          
+        (number "5" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 0.0 0)          (length 2.54)          
+        (name "IP7" (effects (font (size 1.27 1.27))))          
+        (number "6" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 2.54 0)          (length 2.54)          
+        (name "IN8" (effects (font (size 1.27 1.27))))          
+        (number "7" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 5.08 0)          (length 2.54)          
+        (name "IP8" (effects (font (size 1.27 1.27))))          
+        (number "8" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 7.62 0)          (length 2.54)          
+        (name "IN9" (effects (font (size 1.27 1.27))))          
+        (number "9" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 10.16 0)          (length 2.54)          
+        (name "IP9" (effects (font (size 1.27 1.27))))          
+        (number "10" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -19.05 12.7 0)          (length 2.54)          
+        (name "IN10" (effects (font (size 1.27 1.27))))          
+        (number "11" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -13.97 17.78 270)          (length 2.54)          
+        (name "IP10" (effects (font (size 1.27 1.27))))          
+        (number "12" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -11.43 17.78 270)          (length 2.54)          
+        (name "VN" (effects (font (size 1.27 1.27))))          
+        (number "13" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -8.89 17.78 270)          (length 2.54)          
+        (name "VP" (effects (font (size 1.27 1.27))))          
+        (number "14" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -6.35 17.78 270)          (length 2.54)          
+        (name "/RST" (effects (font (size 1.27 1.27))))          
+        (number "15" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin passive line          (at -3.81 17.78 270)          (length 2.54)          
+        (name "AGND" (effects (font (size 1.27 1.27))))          
+        (number "16" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin passive line          (at -1.27 17.78 270)          (length 2.54)          
+        (name "DGND" (effects (font (size 1.27 1.27))))          
+        (number "17" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 1.27 17.78 270)          (length 2.54)          
+        (name "CS" (effects (font (size 1.27 1.27))))          
+        (number "18" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 3.81 17.78 270)          (length 2.54)          
+        (name "TX/SDO" (effects (font (size 1.27 1.27))))          
+        (number "19" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 6.35 17.78 270)          (length 2.54)          
+        (name "RX/SDI" (effects (font (size 1.27 1.27))))          
+        (number "20" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 8.89 17.78 270)          (length 2.54)          
+        (name "SCLK" (effects (font (size 1.27 1.27))))          
+        (number "21" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 11.43 17.78 270)          (length 2.54)          
+        (name "/IRQ1" (effects (font (size 1.27 1.27))))          
+        (number "22" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 13.97 17.78 270)          (length 2.54)          
+        (name "/IRQ2" (effects (font (size 1.27 1.27))))          
+        (number "23" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin unspecified line          (at 19.05 13.97 180)          (length 2.54)          
+        (name "VPP" (effects (font (size 1.27 1.27))))          
+        (number "24" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 11.43 180)          (length 2.54)          
+        (name "M1" (effects (font (size 1.27 1.27))))          
+        (number "25" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 8.89 180)          (length 2.54)          
+        (name "M2/CF_watt" (effects (font (size 1.27 1.27))))          
+        (number "26" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 6.35 180)          (length 2.54)          
+        (name "M3/CF_var" (effects (font (size 1.27 1.27))))          
+        (number "27" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 3.81 180)          (length 2.54)          
+        (name "M4" (effects (font (size 1.27 1.27))))          
+        (number "28" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 1.27 180)          (length 2.54)          
+        (name "M5" (effects (font (size 1.27 1.27))))          
+        (number "29" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 -1.27 180)          (length 2.54)          
+        (name "M6" (effects (font (size 1.27 1.27))))          
+        (number "30" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 -3.81 180)          (length 2.54)          
+        (name "M7" (effects (font (size 1.27 1.27))))          
+        (number "31" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 -6.35 180)          (length 2.54)          
+        (name "M8" (effects (font (size 1.27 1.27))))          
+        (number "32" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 -8.89 180)          (length 2.54)          
+        (name "M9" (effects (font (size 1.27 1.27))))          
+        (number "33" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin output line          (at 19.05 -11.43 180)          (length 2.54)          
+        (name "M10" (effects (font (size 1.27 1.27))))          
+        (number "34" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin passive line          (at 19.05 -13.97 180)          (length 2.54)          
+        (name "DVDD18" (effects (font (size 1.27 1.27))))          
+        (number "35" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 15.24 -17.78 90)          (length 2.54)          
+        (name "SEL" (effects (font (size 1.27 1.27))))          
+        (number "36" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin passive line          (at 12.7 -17.78 90)          (length 2.54)          
+        (name "DVDD" (effects (font (size 1.27 1.27))))          
+        (number "37" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin passive line          (at 10.16 -17.78 90)          (length 2.54)          
+        (name "AVDD" (effects (font (size 1.27 1.27))))          
+        (number "38" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 7.62 -17.78 90)          (length 2.54)          
+        (name "IN1" (effects (font (size 1.27 1.27))))          
+        (number "39" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 5.08 -17.78 90)          (length 2.54)          
+        (name "IP1" (effects (font (size 1.27 1.27))))          
+        (number "40" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 2.54 -17.78 90)          (length 2.54)          
+        (name "IN2" (effects (font (size 1.27 1.27))))          
+        (number "41" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at 0.0 -17.78 90)          (length 2.54)          
+        (name "IP2" (effects (font (size 1.27 1.27))))          
+        (number "42" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -2.54 -17.78 90)          (length 2.54)          
+        (name "IN3" (effects (font (size 1.27 1.27))))          
+        (number "43" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -5.08 -17.78 90)          (length 2.54)          
+        (name "IP3" (effects (font (size 1.27 1.27))))          
+        (number "44" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -7.62 -17.78 90)          (length 2.54)          
+        (name "IN4" (effects (font (size 1.27 1.27))))          
+        (number "45" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -10.16 -17.78 90)          (length 2.54)          
+        (name "IP4" (effects (font (size 1.27 1.27))))          
+        (number "46" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -12.7 -17.78 90)          (length 2.54)          
+        (name "IN5" (effects (font (size 1.27 1.27))))          
+        (number "47" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      
+      (pin input line          (at -15.24 -17.78 90)          (length 2.54)          
+        (name "IP5" (effects (font (size 1.27 1.27))))          
+        (number "48" (effects (font (size 1.27 1.27))))
+        
+        
+      )
+      )      )  )  

@@ -6,6 +6,8 @@
       (at 0 -2.54 0) (effects(font(size 1.27 1.27))))
 
   
+    (property "Footprint" "QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
     (property "Datasheet" "https://example.com/AW9523B_datasheet.pdf"
       (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
     

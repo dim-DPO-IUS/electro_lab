@@ -6,6 +6,8 @@
       (at 0 -2.54 0) (effects(font(size 1.27 1.27))))
 
   
+    (property "Footprint" "HLK-7628N"
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
     (property "Datasheet" "https://www.hlktech.com/product_detail/HLK-7628N/"
       (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
     

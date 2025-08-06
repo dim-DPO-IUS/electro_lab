@@ -6,6 +6,8 @@
       (at 0 -2.54 0) (effects(font(size 1.27 1.27))))
 
   
+    (property "Footprint" "QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
     (property "Datasheet" "https://www.chipup.com/datasheets/XS2184.pdf"
       (at 0 0 0) (effects (font (size 1.27 1.27)) (hide)))
     
